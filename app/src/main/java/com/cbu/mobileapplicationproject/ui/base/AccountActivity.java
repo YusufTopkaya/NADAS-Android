@@ -37,7 +37,7 @@ public class AccountActivity extends AppCompatActivity {
         tvLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(AccountActivity.this, "Çıkış yapılıyor", Toast.LENGTH_LONG).show();
+                Toast.makeText(AccountActivity.this, "Çıkış yapılsın mı?", Toast.LENGTH_LONG).show();
 
             }
         });
